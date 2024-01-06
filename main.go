@@ -10,8 +10,8 @@ import (
 const redColor = "\033[31m"
 
 func main() {
-	inputFile := "input.txt"   // Replace with your input file name
-	outputFile := "output.txt" // Replace with your output file name
+	inputFile := "input.txt"   //
+	outputFile := "output.txt" //
 
 	emails, err := readEmails(inputFile)
 	if err != nil {
